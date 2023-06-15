@@ -1,1 +1,1 @@
-openaikey = "{{KEY}}"
+openaikey = "{{YOUR KEY}}"

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Chat with ChatGPT 3.5</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <h1>Chat with ChatGPT 3.5</h1>
+    <p>Тестовая среда для настроек бота в Slack</p>
+    <pre>Научились сохранять контекст. Теперь нужно его сбрасывать и показывать состояние массива message_history</pre>
+    <form method="post">
+      <input type="text" name="message" id="message" autofocus required>
+      <input type="button" value="send" class="btn" onclick="chat()">
+    </form>
+    <div id="result"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
